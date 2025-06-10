@@ -1,9 +1,11 @@
 # Boki - Book Sorter
-Simple book sorter for `.epub`, `.pdf`, and `azw3`. It's not advanced, and it won't get everything perfect.
+_Simple book sorter for `.epub`, `.pdf`, and `azw3`._ 
 
-The `.epub` sorter works the best due to it using the `ebooklib` module, thus we can read the title and author with ease.
-Remaining file types will go by title name, it will try it's best to sort them but it will sometimes mess it up by having the title as the author and the book as the title.
+#### It's not perfect
+The `.epub` sorter works the best, due to it using the `ebooklib` module to look for author and title. Remaining file types will go by title name, it will try it's best to sort them, however it will sometimes mess it up by having the _Author_ as the book title, and _title_ as the author. 
 
-I'll keep working on the file if I deem it necessary.
+#### Process
+1. Specify book path (it will look inside all directories in the books location)
+2. Specify output path
+3. Wait for it to be completed.
 
-Specify where your books are located, it will go inside each directory inside the specified directory to look for books. Afterwards specify where you would like your sorted books to be stored, wait until it's over.
